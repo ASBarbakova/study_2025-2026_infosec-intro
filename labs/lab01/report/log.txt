@@ -1,0 +1,142 @@
+[1mpandoc [22m
+  to: latex
+  output-file: os-intro-lab01-report.tex
+  standalone: true
+  self-contained: true
+  pdf-engine: xelatex
+  variables:
+    graphics: true
+    tables: true
+  default-image-extension: pdf
+  number-sections: true
+  toc: true
+  toc-depth: 2
+  cite-method: biblatex
+  
+[1mmetadata[22m
+  documentclass: scrreprt
+  classoption:
+    - DIV=11
+    - numbers=noendperiod
+  papersize: a4
+  header-includes:
+    - \KOMAoption{captions}{tableheading}
+  block-headings: true
+  lang: ru-RU
+  toc-title: Содержание
+  crossref:
+    lof-title: Список иллюстраций
+    lot-title: Список таблиц
+    lol-title: Листинги
+  bibliography:
+    - bib/cite.bib
+  csl: _resources/csl/gost-r-7-0-5-2008-numeric.csl
+  colorlinks: false
+  lof: true
+  lot: true
+  fontsize: 12pt
+  linestretch: 1.5
+  babel-lang: russian
+  babel-otherlangs: english
+  biblio-style: gost-numeric
+  biblatexoptions:
+    - backend=biber
+    - langhook=extras
+    - autolang=other*
+  csquotes: true
+  indent: true
+  author:
+    name: Барбакова Алиса Саяновна
+    degrees: bachelor
+    orcid: null
+    email: 1132246727@rudn.ru
+    affiliation:
+      - name: Российский университет дружбы народов
+        country: Российская Федерация
+        postal-code: null
+        city: Москва
+        address: ул. Миклухо-Маклая
+  title: Лабораторная работа №1
+  subtitle: Установка и конфигурация операционной системы на виртуальную машину
+  license: CC BY
+  
+[1m[34m
+Rendering PDF[39m[22m
+[1m[34mrunning xelatex - 1[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mgenerating bibliography[39m[22m
+  INFO - This is Biber 2.21
+  INFO - Logfile is 'os-intro-lab01-report.blg'
+  INFO - Reading 'os-intro-lab01-report.bcf'
+  INFO - Found 7 citekeys in bib section 0
+  INFO - Processing section 0
+  INFO - Looking for bibtex file 'bib/cite.bib' for section 0
+  INFO - LaTeX decoding ...
+  INFO - Found BibTeX data source 'bib/cite.bib'
+  INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+  INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+  INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'ru-RU'
+  INFO - No sort tailoring available for locale 'ru-RU'
+  INFO - Writing 'os-intro-lab01-report.bbl' with encoding 'UTF-8'
+  INFO - Output to os-intro-lab01-report.bbl
+  WARN - I didn't find a database entry for 'fig:001' (section 0)
+  WARN - I didn't find a database entry for 'fig:003' (section 0)
+  WARN - I didn't find a database entry for 'fig:004' (section 0)
+  WARN - I didn't find a database entry for 'fig:002' (section 0)
+  WARN - I didn't find a database entry for 'fig:005' (section 0)
+  WARN - I didn't find a database entry for 'fig:006' (section 0)
+  WARN - I didn't find a database entry for 'fig:007' (section 0)
+  INFO - WARNINGS: 7
+  
+[1m[34mrunning xelatex - 2[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 3[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 4[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 5[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 6[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 7[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 8[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 9[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[1m[34mrunning xelatex - 10[39m[22m
+  This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex)
+   restricted \write18 enabled.
+  entering extended mode
+  
+[33mWARN: maximum number of runs (9) reached[39m
+
+Output created: _output/os-intro-lab01-report.pdf
+
