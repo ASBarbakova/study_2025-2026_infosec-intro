@@ -16,13 +16,7 @@ title: Индивидуальный Проект
 subtitle: Этап 1
 license: CC BY
 date: today
-date-format: "2026-03-05" # Example: 2025-09-06
-   
-format:
-  beamer:
-    pdf-engine: xelatex
-    mainfont: "DejaVu Sans"
-    lang: ru-RU    
+date-format: "2026-03-05" # Example: 2025-09-06  
 ---
 
 
